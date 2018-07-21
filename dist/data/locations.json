@@ -1,0 +1,16 @@
+[
+  {
+    "address": "Böblinger Straße 34, 70178 Stuttgart",
+    "login_count": 123,
+    "rating_avg": 4.5,
+    "weekday": "Samstag",
+    "returning_users": "43 %"
+  },
+  {
+    "address": "Alte Straße 23, 10119 Stuttgart",
+    "login_count": 243,
+    "rating_avg": 4.0,
+    "weekday": "Montag",
+    "returning_users": "63 %"
+  }
+]

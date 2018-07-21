@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/dashboard.min.css">
+    <script type="text/javascript" src="js/dashboard.min.js"></script>
+    <title>MeinHotspot - Dashboard</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="row">
+  <div class="col-sm-12">
+    <div class="btn-group btn-group-toggle pull-right" data-toggle="buttons">
+      <label class="btn btn-outline-secondary">
+        <input type="radio" name="period" value="7d" autocomplete="off"> Letzte 7 Tage
+      </label>
+      <label class="btn btn-outline-secondary">
+        <input type="radio" name="period" value="6m" autocomplete="off"> Letzte 6 Monate
+      </label>
+      <label class="btn btn-outline-secondary">
+        <input type="radio" name="period" value="12m" autocomplete="off"> Letzte 12 Monate
+      </label>
+      <label class="btn btn-outline-secondary">
+        <input type="radio" name="period" value="m" autocomplete="off"> Dieser Monat
+      </label>
+      <label class="btn btn-outline-secondary">
+        <input type="radio" name="period" value="y" autocomplete="off"> Dieses Jahr
+      </label>
+    </div>
+  </div>
+</div>
+
+      <nav>
+  <div class="nav nav-tabs mt-3 mb-2"
+       id="nav-tab"
+       role="tablist">
+    <a class="nav-item nav-link @@overview"
+       href="./index.html"
+       role="tab"
+       aria-selected="true">Übersicht</a>
+    <a class="nav-item nav-link active"
+       href="./ratings.html"
+       role="tab"
+       aria-selected="true">Bewertungen</a>
+    <a class="nav-item nav-link @@logins"
+       href="./logins.html"
+       role="tab"
+       aria-selected="true">Logins</a>
+    <a class="nav-item nav-link @@archive"
+       href="./archive.html"
+       role="tab"
+       aria-selected="true">Archiv</a>
+    <a class="nav-item nav-link @@locations"
+       href="./locations.html"
+       role="tab"
+       aria-selected="true">Standorte vergleichen</a>
+  </div>
+</nav>
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" role="tabpanel">
+          <div class="row">
+            <div class="col-sm-12">
+              <h1>Bewertungen</h1>
+              <div id="toolbar">
+  <select id="export_data_type" class="form-control">
+    <option value="">Exportieren</option>
+    <option value="all">Alle exportieren</option>
+    <option value="selected">Ausgewählte exportieren</option>
+  </select>
+</div>
+              <table id="ratings"></table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

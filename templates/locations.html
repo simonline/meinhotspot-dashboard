@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  @@include('includes/head.html')
+  <body>
+    <div class="container mt-5">
+      @@include('includes/filter.html')
+      @@include('includes/tabs.html', {"locations": "active"})
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" role="tabpanel">
+          <div class="row">
+            <div class="col-sm-12">
+              <h1>Standorte vergleichen</h1>
+              @@include('includes/toolbar.html')
+              <table id="locations"></table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

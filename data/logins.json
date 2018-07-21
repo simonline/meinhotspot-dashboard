@@ -1,0 +1,92 @@
+[
+  {
+    "timestamp": "2017-12-06 12:34:56",
+    "name": "Andy Gewehre",
+    "email": "andy@web.de",
+    "browser_icon": "chrome",
+    "browser_name": "Chrome",
+    "os_icon": "apple",
+    "os_name": "Mac OS"
+  },
+  {
+    "timestamp": "2017-12-06 12:34:56",
+    "name": "Rosa Schlüpfer",
+    "email": "rosa@web.de",
+    "browser_icon": "firefox",
+    "browser_name": "Mozilla Firefox",
+    "os_icon": "windows",
+    "os_name": "Microsoft Windows"
+  },
+  {
+    "timestamp": "2017-12-06 12:34:56",
+    "name": "Franz Iskaner",
+    "email": "franz@web.de",
+    "browser_icon": "opera",
+    "browser_name": "Opera",
+    "os_icon": "linux",
+    "os_name": "Linux"
+  },
+  {
+    "timestamp": "2017-12-06 12:34:56",
+    "name": "Andy Gewehre",
+    "email": "andy@web.de",
+    "browser_icon": "chrome",
+    "browser_name": "Chrome",
+    "os_icon": "apple",
+    "os_name": "Mac OS"
+  },
+  {
+    "timestamp": "2017-12-06 12:34:56",
+    "name": "Rosa Schlüpfer",
+    "email": "rosa@web.de",
+    "browser_icon": "firefox",
+    "browser_name": "Mozilla Firefox",
+    "os_icon": "windows",
+    "os_name": "Microsoft Windows"
+  },
+  {
+    "timestamp": "2017-12-06 12:34:56",
+    "name": "Franz Iskaner",
+    "email": "franz@web.de",
+    "browser_icon": "opera",
+    "browser_name": "Opera",
+    "os_icon": "linux",
+    "os_name": "Linux"
+  },
+  {
+    "timestamp": "2017-12-06 12:34:56",
+    "name": "Andy Gewehre",
+    "email": "andy@web.de",
+    "browser_icon": "chrome",
+    "browser_name": "Chrome",
+    "os_icon": "apple",
+    "os_name": "Mac OS"
+  },
+  {
+    "timestamp": "2017-12-06 12:34:56",
+    "name": "Rosa Schlüpfer",
+    "email": "rosa@web.de",
+    "browser_icon": "firefox",
+    "browser_name": "Mozilla Firefox",
+    "os_icon": "windows",
+    "os_name": "Microsoft Windows"
+  },
+  {
+    "timestamp": "2017-12-06 12:34:56",
+    "name": "Franz Iskaner",
+    "email": "franz@web.de",
+    "browser_icon": "opera",
+    "browser_name": "Opera",
+    "os_icon": "linux",
+    "os_name": "Linux"
+  },
+  {
+    "timestamp": "2017-12-06 12:34:56",
+    "name": "Andy Gewehre",
+    "email": "andy@web.de",
+    "browser_icon": "chrome",
+    "browser_name": "Chrome",
+    "os_icon": "apple",
+    "os_name": "Mac OS"
+  }
+]

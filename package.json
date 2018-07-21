@@ -1,0 +1,33 @@
+{
+  "name": "meinhotspot_dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.1.0",
+    "bootstrap-table": "git+ssh://git@github.com/wenzhixin/bootstrap-table.git#develop",
+    "c3": "^0.6.5",
+    "d3": "^5.5.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^1.9.1",
+    "js-cookie": "^2.2.0",
+    "moment": "^2.22.2",
+    "popper.js": "^1.14.3",
+    "tableexport.jquery.plugin": "^1.9.11"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify-es": "^3.3.0",
+    "grunt-contrib-watch": "^1.0.1",
+    "grunt-include-replace": "^5.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

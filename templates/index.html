@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+@@include('includes/head.html')
+<body>
+<div class="container mt-4">
+    @@include('includes/filter.html')
+    @@include('includes/tabs.html', {"overview": "active"})
+    <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" role="tabpanel">
+            <div class="row mb-4">
+                <div class="col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <h6 class="text-center">Anzahl der Nutzer</h6>
+                                    <div id="chart-user-count"
+                                         class="ct-chart ct-golden-section"></div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <h6 class="text-center">Wochentage</h6>
+                                            <div id="chart-weekdays"
+                                                 class="ct-chart ct-golden-section"></div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <h6 class="text-center">Nutzer</h6>
+                                            <div id="chart-returning-users"
+                                                 class="ct-chart ct-golden-section"></div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <h6 class="text-center">Geschlecht</h6>
+                                            <div id="chart-gender"
+                                                 class="ct-chart ct-golden-section"></div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <h6 class="text-center">Altersverteilung</h6>
+                                            <div id="chart-age"
+                                                 class="ct-chart ct-golden-section"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-sm-6">
+                    @@include('includes/latest-logins.html')
+                    @@include('includes/latest-archive.html')
+                </div>
+                <div class="col-sm-6">
+                    @@include('includes/latest-ratings.html')
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
